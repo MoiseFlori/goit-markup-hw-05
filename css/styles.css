@@ -655,6 +655,9 @@ a.logo .studio {
 .input-group {
   margin-bottom: 16px;
 }
+.input-name{
+  margin-bottom: 8px;
+}
 
 .input-label {
   font-size: 12px;
