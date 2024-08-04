@@ -521,6 +521,7 @@ a.logo .studio {
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-p {
@@ -541,6 +542,7 @@ a.logo .studio {
   opacity: 0px;
   gap: 24px;
 }
+
 .email-input {
   width: 264px;
   height: 40px;
@@ -553,7 +555,8 @@ a.logo .studio {
   line-height: 2;
   letter-spacing: 0.04em;
   background-color: transparent;
-  
+  font-size: 12px; 
+  padding-left: 16px; 
 }
 
 .email-input::placeholder {
@@ -564,7 +567,7 @@ a.logo .studio {
   justify-content: center;
   align-items: center;
   font-family: Roboto, sans-serif;
-  width: 165px;
+  min-width: 165px; 
   height: 40px;
   font-size: 16px;
   font-weight: 500;
@@ -575,7 +578,6 @@ a.logo .studio {
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
-  
 }
 .subscribe-icon {
   margin-left: 16px;
