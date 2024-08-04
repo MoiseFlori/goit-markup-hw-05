@@ -649,7 +649,7 @@ a.logo .studio {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form .input-group {
@@ -758,28 +758,31 @@ a.logo .studio {
 
 .checkbox-group input:checked + .checkbox-label .checkbox-custom {
   border: none;
-  background-color: #404bbf; 
-   fill: #F4F4FD;
+  background-color: #404bbf;
+  fill: #f4f4fd;
 }
 
- .submit-btn {
-            display: block;
-            min-width: 169px;
-            height: 56px;
-            font-family: "Roboto", sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #ffffff;
-            cursor: pointer;
-            background-color: #4D5AE5;
-            border: none;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            margin: 0 auto; /* pentru a centra butonul */
-        }
+.submit-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto; /* pentru a centra butonul */
+}
 
-        /* Optional: efect de hover pentru buton */
-        .submit-btn:hover {
-            background-color: #3c4cb8;
-        }
+/* Optional: efect de hover pentru buton */
+.submit-btn:hover {
+  background-color: #3c4cb8;
+}
+.privacy-policy {
+  color: #4d5ae5;
+}
