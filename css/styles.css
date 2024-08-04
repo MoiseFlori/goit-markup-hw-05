@@ -515,34 +515,68 @@ a.logo .studio {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
 .subscribe {
+  margin-left: 120px;
+}
+
+.subscribe-form {
   display: flex;
+}
+
+.subscribe-p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .form-label {
   width: 453px;
   height: 80px;
-  top: 100px;
-  left: 828px;
-  gap: 0px;
   border-radius: 4px 0px 0px 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
+  gap: 24px;
 }
-
-.form-button {
-  width: Hug (165px) px;
-  height: Hug (40px) px;
-  top: 140px;
-  left: 1116px;
-  padding: 8px 24px 8px 24px;
-  gap: 16px;
-  border-radius: 4px 0px 0px 0px;
+.email-input {
+  width: 264px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
   opacity: 0px;
-  background: rgba(77, 90, 229, 1);
-
-}
-input{
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  line-height: 2;
+  letter-spacing: 0.04em;
+  background-color: transparent;
   
+}
+
+.email-input::placeholder {
+  color: #ffffff;
+}
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  width: 165px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  
+}
+.subscribe-icon {
+  margin-left: 16px;
 }
